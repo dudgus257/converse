@@ -1,0 +1,112 @@
+/* XEICON CDN */
+@import url("http://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@700&display=swap'); 
+
+@import url('https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+/* Reset css */
+*{
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color: #222;
+}
+button, input {
+    outline :none;
+}
+h1,h2,h3,h4,h5.h6{
+    margin-top:0;
+    font-weight: normal;
+    line-height: 1.5em;
+}
+/* Default css */
+html {
+    scroll-behavior:smooth;
+}
+body {
+    /* font-family:'NEXON Lv2 Gothic', sans-serif; */
+    font-size: 18px;
+    line-height: 1.7em;
+    margin:0;
+    background-color: #222;
+    color:#fff
+}
+/* body.active {
+    overflow:hidden;
+} */
+/* section {
+    padding:100px 0;
+}  */
+/* header */
+/* .logo {
+    float:left;
+    margin:0.5%
+}
+.logo img{
+    width: 100px;
+    background:none;
+
+}
+header {
+    position:fixed;
+    width: 100%;
+    background:url(images/header.png);
+    z-index:10
+} */
+
+
+/* .gnb button {
+    border-radius: 20px;
+    background-color:#fff;
+    border:none;
+    color:#000;
+    height: 50px;
+    width: 230px;
+    font-size: 30px;
+    position:block;
+    cursor:pointer;
+    box-shadow:5px 5px 5px #222;
+    font-family: 'Oswald', sans-serif;
+} */
+/* .gnb button:hover {
+    background-color:#222;
+    color:#fff;
+} */
+
+
+
+/* SECTION : WELCOME */
+.welcome {
+    position:relative;
+    
+}
+.gnb a{
+    position:absolute;
+    /* margin-top:100px; */
+    text-align:right;
+    margin:auto;
+    width: 100%;
+    font-size: 100px;
+    /* top:20%; */
+    /* border:5px solid #222; */
+    /* background-color:#222; */
+    top:500px;
+    right:200px;
+    font-family: 'East Sea Dokdo', cursive;
+    color:white
+    /* font-family: 'Rowdies', cursive; */
+
+    /* font-family: 'Moon Dance', cursive; */
+    /* font-weight: 400; */
+}
+.gnb a:hover{
+    color:black
+}
+.welcome_heading span{
+    text-shadow : 5px 5px 5px #000
+}
