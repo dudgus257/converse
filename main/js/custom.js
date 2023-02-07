@@ -40,6 +40,14 @@ $(function(){
     $('section').click(function(){
         $('.gnb_left, .trigger').removeClass('active')
     })
+    // PLUS toggle
+    $('.toggle').click(function(){
+        $(this).toggleClass('active')
+        $('.gnb_right').toggleClass('active')
+    })
+    $('section').click(function(){
+        $('.gnb_right, .toggle').removeClass('active')
+    })
 
 })
 

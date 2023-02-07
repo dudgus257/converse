@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+*{
+    font-family: 'Roboto Mono', monospace;
+}
+body{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 15px;
+    margin:0;
+    line-height:3em;
+    color: #222;
+    background: url(../../images/login.jpg) no-repeat center center;
+    background-attachment: fixed;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    height: 100vh;
+}
+body:before {
+    content: '';
+    position:absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height:100%;
+    background-color:rgba(0, 0, 0, 0.6)
+    
+}
+a {
+    text-decoration: none;
+    color: #222
+}
+.login{
+    text-align:center !important;
+    position:relative;
+    width: 400px;
+    padding:50px;
+    box-sizing:border-box;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow:0 25px 40px rgba(0, 0, 0, 0.1);
+    color:beige
+}
+.login a{
+    color:beige
+}
+.login img {
+    width: 100px;
+}
+.login h1{
+    font-size: 40px;
+    padding-bottom:30px
+    
+}
+/* FORM */
+form{
+    text-align:left
+}
+/* input-field */
+.input-field{
+    position:relative
+}
+input[type=email],
+input[type=password]
+{
+    width: 100%;
+    padding:10px 0;
+    background-color:transparent;
+    /* border:none; */
+    outline:none;
+    margin:20px 0;
+    color:beige;
+    font-size: 18px;
+}
+.input-field span{
+    position:absolute;
+    left:10px;
+    top:20px;
+    font-size: 15px;
+    pointer-events: none;
+    transition: 0.5s;
+}
+.input-field input:focus + span,
+.input-field input:valid + span
+{
+    top:-10px;
+    font-size: 10px;
+    /* color:black */
+}
+.input-field span.warning{
+    color:crimson !important;
+    animation: warning 0.3s ease-in-out 2;
+}
+@keyframes warning {
+    0%, 100% {
+        transform: translateX(-5px)
+    }
+    25% {
+        transform: translateX(5px)
+    }
+    50% {
+        transform: translateX(-5px)
+    }
+    75% {
+        transform: translateX(5px)
+    }
+}
+/* button-field */
+.button-field input{
+    background-color:beige;
+    color:#000;
+    text-transform: uppercase;
+    padding:10px;
+    font-size: 15px;
+    width: 100%;
+    margin:10px 0;
+    cursor:pointer
+}
+/* sign-up */
+#signup-btn{
+    background-color:beige;
+    color:#000;
+    text-transform: uppercase;
+    padding:10px;
+    font-size: 15px;
+    width: 100%;
+    margin:10px 0;
+    cursor:pointer
+}
+/* add-info */
+.add-info{
+    color:beige;
+}
+.add-info a:hover{
+    text-decoration: underline;
+}
+#save-email{
+    display:none
+}
+.add-info label em {
+    /* border:1px solid beige; */
+    width: 18px;
+    height: 18px;
+    display:inline-block;
+    margin-right:5px;
+    transform:translateY(4px);
+    background:url(../../images/icon-checkbox.png) no-repeat;
+    background-position:left;
+}
+#save-email:checked + em{
+    background-position:right
+}
+#save-email:checked + em + span{
+    color:#1bbe93
+}
+
+

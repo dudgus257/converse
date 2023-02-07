@@ -162,8 +162,10 @@ header.active {
 }
 .gnb_right {
     float:right;
-    padding-top:20px;
-    margin-right:1%
+    padding-top:10px;
+    margin-right:1%;
+    display:flex;
+    flex-direction:row;
 }
 .gnb_left a, .gnb_right a{
     margin:10px;
@@ -196,7 +198,9 @@ header.active {
     font-size: 20px;
     opacity:0.5
 }
-
+.toggle i{
+    display:none
+}
 /* SECTION : WELCOME */
 .welcome, .wrap {
     top:0px;

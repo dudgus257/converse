@@ -274,27 +274,11 @@
         /* border:1px solid red; */
         position:absolute;
     }
-    .gnb_right{
-        float:left;
-        padding-top:7px;
-    }
+    
     .gnb_right a{
         font-size:10px;
         margin:0.03em;
         color:white;
-    }
-    .xi-market,
-    .xi-search{
-        opacity:1
-    }
-    .xi-market,
-    .xi-emoticon,
-    .xi-heart-o,
-    .xi-help-o,
-    .xi-moon
-    {
-        display:none;
-        opacity:none
     }
     .gnb_left{
         float:none;
@@ -309,10 +293,29 @@
         padding-left:15px;
         transition: 0.5s;
     }
-    .gnb_left.active{
+    .gnb_right{
+        float:none;
+        background-color: #000;
+        position:fixed;
+        height:100vh;
+        width: 100px;
+        top:0;
+        left:-100px;
+        flex-direction:column;
+        box-shadow: 3px 0 3px rgba(0, 0, 0, 0.1);
+        padding-top:70px;
+        padding-left:15px;
+        transition:0.5s
+    }
+    .gnb_left.active
+    {
         right:-10px
     }
-    .gnb_left a{
+    .gnb_right.active{
+        left:0px
+    }
+    .gnb_left a,
+    .gnb_right a{
         display:block
     }
     /* Trigger */
@@ -334,6 +337,34 @@
     .trigger.active:before{
         content: '\e9af'
     }
+    
+    /* TOGGLE */
+    .toggle{
+        position:fixed;
+        top:10px;
+        left:10px;
+        z-index:1
+    }
+    .toggle i{
+        display:block;
+        width: 20px;
+        height: 20px;
+        font-size: 15px;
+        background-color:white;
+        font-weight: bold;
+        text-align:center;
+        border-radius: 50%;
+        line-height:20px;
+        cursor:pointer;
+        box-shadow:0 0 10px black(0, 0, 0, 0.5);
+        transition:0.5s
+    }
+    .toggle.active i{
+        background-color:#000;
+        color:#fff;
+        transform:rotate(315deg)
+    }
+    /* OVERLAY */
     
     /* converse_ader_error */
     .ader_error_title{
