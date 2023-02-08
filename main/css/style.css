@@ -198,11 +198,9 @@ header.active {
 }
 /* 검색 */
 .search{
-    /* background-color:rgba(0, 0, 0, 0.5); */
     width: 30px;
     height: 30px;
     border-radius: 50px 50px 50px 50px;
-    /* box-shadow: 0 0 0 10px white */;
     overflow:hidden;
     position:relative;
     margin-top:8px;
@@ -224,18 +222,14 @@ header.active {
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    /* line-height: 20px; */
     font-size: 20px;
-    /* background-color:rgba(0, 0, 0, 0.5); */
     cursor:pointer;
     position:absolute;
     top:5px;
     left:5px;
-    /* text-align:center */
 }
 .icon i{
     color:white;
-    /* padding-top:10px */
 }
 .input-frame {
     position:absolute;
@@ -250,7 +244,6 @@ header.active {
     font-size: 15px;
     font-family: 'Montserrat', sans-serif;
     background-color:rgba(0, 0, 0, 0);
-    /* opacity:0.5; */
     color:#fff;
     top:5px;
     position:absolute
@@ -261,34 +254,7 @@ header.active {
 .input-frame input[type=text]:focus::placeholder {
     opacity:0
 }
-.clear{
-    /* position:absolute;
-    right: 10px;
-    top:0px;
-    cursor:pointer; */
-    display:none
-}
-/* .clear i{
-    color:white;
-    opacity:0.5;
-    font-size: 15px;
-    font-weight: bold;
-} */
-/* 다크모드 아이콘(컨셉에 맞지 않음) */
-/* .btn-mode{
-    width: 20px;
-    height: 20px;
-    margin-top:6px;
-    margin-left:2px;
-    cursor:pointer;
-    display:inline-block
-}
-.btn-mode:before{
-    content: '\eb0f';
-    font-family: xeicon;
-    opacity:0.5;
-    color:white
-} */
+
 /* SECTION : WELCOME */
 .welcome, .wrap {
     top:0px;
