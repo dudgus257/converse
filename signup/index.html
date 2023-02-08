@@ -5,8 +5,79 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>sign up</title>
+    <link rel="icon" href="../images/logo-favicon.png">
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
-    
+    <div class="container">
+        <div class="member">
+            <h1><a href="../index.html">CONVERSE</a></h1>
+            <div class="field">
+                <b>EMAIL ID</b>
+                <input type="text">
+            </div>
+            <div class="field">
+                <b>Enter password</b>
+                <input class="userpw" type="password">
+            </div>
+            <div class="field">
+                <b>Reenter password for verification</b>
+                <input class="userpw-re" type="password">
+            </div>
+            <div class="field">
+                <b>name</b>
+                <input type="text">
+            </div>
+            <div class="field birth">
+                <b>birth</b>
+                <div>
+                    <input type="number" placeholder="년(4자)">
+                    <select>
+                        <option value="">월</option>
+                    </select>
+                    <input type="number" placeholder="일">
+                </div>
+            </div>
+            <div class="field gender">
+                <b>gender</b>
+                <div>
+                    <label><input type="radio" name="gender"><em></em>남자</label>
+                    <label><input type="radio" name="gender"><em></em>여자</label>
+                    <label><input type="radio" name="gender"><em></em>선택안함</label>
+                </div>
+            </div>
+            <div class="field">
+                <b>본인 확인 이메일</b>
+                <input type="email" placeholder="이메일 입력">
+            </div>
+            <div class="field tel-number">
+                <b>휴대전화</b>
+                <select>
+                    <option value="">대한민국 +82</option>
+                </select>
+                <div>
+                    <input type="tel" placeholder="전화번호 입력">
+                    <input type="button" value="인증번호 받기">
+                </div>
+                <input type="number" placeholder="인증번호 입력하세요.">
+            </div>
+            <input class="submit" type="submit" value="가입하기">
+            <div class="member-footer">
+                <div>
+                    <a href="#none">이용약관</a>
+                    <a href="#none">개인정보처리방침</a>
+                    <a href="#none">법적고지</a>
+                    <a href="#none">회원정보</a>
+                    <a href="#none">고객센터</a>
+                </div>
+                <span>© <a href="#none">CONVERSE Corp.</a></span>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

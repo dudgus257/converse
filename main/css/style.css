@@ -23,13 +23,6 @@
 }
 
 @font-face {
-    font-family: 'ChosunCentennial';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/ChosunCentennial.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
     font-family: 'HSGyoulnoonkot';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/HSGyoulnoonkot.woff') format('woff');
     font-weight: normal;
@@ -201,6 +194,21 @@ header.active {
 .toggle i{
     display:none
 }
+/* 다크모드 아이콘(컨셉에 맞지 않음) */
+/* .btn-mode{
+    width: 20px;
+    height: 20px;
+    margin-top:6px;
+    margin-left:2px;
+    cursor:pointer;
+    display:inline-block
+}
+.btn-mode:before{
+    content: '\eb0f';
+    font-family: xeicon;
+    opacity:0.5;
+    color:white
+} */
 /* SECTION : WELCOME */
 .welcome, .wrap {
     top:0px;
@@ -242,22 +250,16 @@ header.active {
     margin:auto
 }
 .ader_error_left{
-    /* border:1px solid red; */
-    /* float:left; */
     width: 55%;
 }
 .converse_ader_error_inner video {
     width: 900px;
-    /* float:left; */
     padding-left:30px;
     padding-right:30px
 }
 .ader_error_right{
-    /* float:right; */
     width: 30%;
     position:relative;
-    /* margin-right:50px; */
-    /* border:1px solid red */
     right:0
 }
 .ader_error_title02 h2{
@@ -266,7 +268,7 @@ header.active {
     text-align:center;
     padding-bottom:20px;
     font-size: 25px;
-    font-style:italic;
+    /* font-style:italic; */
 }
 .ader_error_text {
     overflow:hidden;
@@ -277,7 +279,8 @@ header.active {
     padding-right:10px;
     font-size: 18px;
     line-height:1.7em;
-    /* font-family: 'ChosunCentennial'; */
+    font-family: 'Noto Sans KR', sans-serif;
+
 }
 /* .ader_error_text span{
     font-family: 'Rowdies', cursive;
@@ -343,10 +346,11 @@ header.active {
     text-align:left;
     padding-bottom:20px;
     font-size: 25px;
-    font-style:italic;
+    /* font-style:italic; */
     /* border:1px solid red; */
     width: 100%;
-    padding-left:30px
+    padding-left:30px;
+    font-family: 'Noto Sans KR', sans-serif;
 }
 .run_star_text {
     overflow:hidden;
@@ -357,7 +361,7 @@ header.active {
     padding-right:30px;
     font-size: 18px;
     line-height:1.7em;
-    /* font-family: 'ChosunCentennial'; */
+    font-family: 'Noto Sans KR', sans-serif;
 }
 .run_star_btn {
     /* font-family: 'Rowdies', cursive; */
@@ -382,7 +386,7 @@ header.active {
     background-color:#fff
 }
 .run_right{
-    border:1px solid red;
+    /* border:1px solid red; */
     width: 60%;
 }
 .run_right video {
@@ -450,8 +454,9 @@ header.active {
     text-align:left;
     padding-bottom:20px;
     font-size: 25px;
-    font-style:italic;
-    
+    /* font-style:italic; */
+    font-family: 'Noto Sans KR', sans-serif;
+
     /* text-shadow: 5px 5px 5px #555; */
 }
 .drkshdw_text {
@@ -463,12 +468,15 @@ header.active {
     /* padding-right:30px; */
     font-size: 18px;
     line-height:1.7em;
-    /* font-family: 'ChosunCentennial'; */
+    font-family: 'Noto Sans KR', sans-serif;
+
 }
 .drkshdw_text span{
     font-size: 14px;
-    font-style:italic;
-    line-height:45px
+    /* font-style:italic; */
+    line-height:45px;
+    font-family: 'Noto Sans KR', sans-serif;
+
 }
 .drkshdw_btn {
     /* font-family: 'Rowdies', cursive; */
@@ -538,17 +546,24 @@ header.active {
     text-align:center;
     padding-bottom:20px;
     font-size: 30px;
-    font-style:italic;
+    font-family: 'Noto Sans KR', sans-serif;
+
+    /* font-style:italic; */
     /* text-shadow: 5px 5px 5px rgb(192, 191, 191); */
 }
 .runstar_text{
     line-height:30px;
     font-size:18px;
+    font-family: 'Noto Sans KR', sans-serif;
+    /* font-weight: bold; */
+
 }
 .runstar_text span{
     font-size: 14px;
-    font-style:italic;
-    line-height:50px
+    /* font-style:italic; */
+    line-height:50px;
+    font-family: 'Noto Sans KR', sans-serif;
+
 }
 .runstar_btn {
     /* font-family: 'Rowdies', cursive; */

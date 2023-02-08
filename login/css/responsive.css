@@ -1,0 +1,7 @@
+
+/* 모바일 가로, 모바일 세로 해상도 480 ~767 */
+@media all and (max-width:767px) {
+    .login{
+        width: 300px;
+    }
+}
