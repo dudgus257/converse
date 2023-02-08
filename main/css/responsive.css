@@ -12,7 +12,7 @@
         padding-left:30px;
     }
     .converse_ader_error_inner{
-        height: auto;
+        height: 820px;
     }
     .ader_error_content{
         width: 100%;
@@ -25,8 +25,9 @@
         width: 100%;
     }
     .ader_error_right{
-        width: 70%;
+        width: 100%;
         padding-left:30px;
+        padding-right:30px;
         
     }
     .ader_error_title02 h2{
@@ -384,7 +385,7 @@
         /* padding-left:30px; */
     }
     .converse_ader_error_inner{
-        height: auto;
+        height: 630px;
     }
     .ader_error_content{
         width: 100%;
